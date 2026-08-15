@@ -1,0 +1,78 @@
+.header {
+  min-height: 120px;
+  font-family: "Inter", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+.header__logo-link {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header__logo {
+  width: 173px;
+  height: 33px;
+  object-fit: contain;
+}
+
+/* Zona derecha del encabezado: cambia según el estado de la sesión. */
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 23px;
+}
+
+.header__email {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
+
+.header__link {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.header__link_type_signout {
+  color: #a9a9a9;
+}
+
+.header__link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 544px) {
+  .header {
+    min-height: 85px;
+  }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+    margin: 0 0 0 7px;
+  }
+
+  .header__nav {
+    gap: 15px;
+  }
+
+  .header__email,
+  .header__link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,19 @@
+# Dependencias
+node_modules
+
+# Registros: request.log y error.log se quedan en el servidor
+logs
+*.log
+
+# Variables de entorno: los archivos .env viven SOLO en el servidor
+.env
+.env.local
+.env.production
+
+# Build del front-end
+frontend/dist
+
+# Archivos de sistema y carpetas de ajustes IDE
+.DS_Store
+.idea
+.vscode

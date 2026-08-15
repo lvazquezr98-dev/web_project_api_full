@@ -1,0 +1,31 @@
+{
+  "name": "web_project_api_full_backend",
+  "version": "1.0.0",
+  "description": "API RESTful con autenticación para el proyecto 'Alrededor de los EE. UU.' (Node.js + Express + MongoDB)",
+  "main": "app.js",
+  "author": "Luis Vázquez",
+  "license": "ISC",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "npx eslint ."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "celebrate": "^15.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-winston": "^4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.24.2",
+    "validator": "^13.12.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "eslint": "8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "nodemon": "^3.1.0"
+  }
+}

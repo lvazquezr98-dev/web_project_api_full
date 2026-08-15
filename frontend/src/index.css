@@ -1,0 +1,25 @@
+/* ============================================================
+   index.css — HOJA DE ESTILOS PRINCIPAL
+   ============================================================
+   Este archivo NO contiene estilos propios. Solo IMPORTA
+   los archivos CSS de cada bloque BEM.
+
+   En tu proyecto anterior, este archivo estaba en pages/index.css.
+   En React + Vite, va directo en src/index.css.
+
+   IMPORTANTE: Las rutas cambiaron. Antes era "../vendor/..."
+   porque el CSS estaba en pages/. Ahora está en src/,
+   así que las rutas son relativas desde aquí: "./vendor/..."
+   ============================================================ */
+
+@import url("./vendor/normalize.css");
+@import url("./vendor/fonts.css");
+@import url("./blocks/page.css");
+@import url("./blocks/header.css");
+@import url("./blocks/content.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/profile.css");
+@import url("./blocks/cards.css");
+@import url("./blocks/card.css");
+@import url("./blocks/popup.css");
+@import url("./blocks/auth.css");

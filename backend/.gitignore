@@ -1,0 +1,19 @@
+# Variables de entorno: el archivo .env vive SOLO en el servidor
+.env
+.env.local
+
+# Registros: request.log y error.log no se suben al repositorio
+logs
+*.log
+npm-debug.log*
+
+# Directorio de dependencias
+node_modules
+
+# Directorio de cache npm opcional
+.npm
+
+# Archivos de sistema y carpetas de ajustes IDE
+.DS_Store
+.idea
+.vscode
