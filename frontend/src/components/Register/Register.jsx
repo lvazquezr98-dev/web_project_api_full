@@ -74,7 +74,7 @@ export default function Register({ onRegister }) {
             type="password"
             placeholder="Contraseña"
             autoComplete="new-password"
-            minLength="4"
+            minLength="8"
             required
             value={values.password}
             onChange={handleChange}

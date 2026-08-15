@@ -79,7 +79,7 @@ export default function Login({ onLogin }) {
             type="password"
             placeholder="Contraseña"
             autoComplete="current-password"
-            minLength="4"
+            minLength="8"
             required
             value={values.password}
             onChange={handleChange}
