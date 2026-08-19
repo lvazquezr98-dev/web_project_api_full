@@ -8,11 +8,9 @@ Tokens.
 
 ## URL de la aplicación
 
-- **Front-end:** https://PENDIENTE.tu-dominio.com
-- **API (back-end):** https://api.PENDIENTE.tu-dominio.com
+- **Front-end:** https://around-luis.mooo.com
+- **API (back-end):** https://api-around-luis.chickenkiller.com
 
-> Sustituye estas dos líneas por tu dominio real en cuanto termines el
-> despliegue del [paso 4](#4-despliegue-en-el-servidor).
 
 ## Funcionalidad
 
