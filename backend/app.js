@@ -46,14 +46,6 @@ app.use(express.json());
 // de TODAS las peticiones que llegan (request.log).
 app.use(requestLogger);
 
-// Ruta de prueba de caída del servidor. PM2 debe reiniciar el proceso solo.
-// TODO: eliminar esta ruta después de pasar la revisión del proyecto.
-app.get('/crash-test', () => {
-  setTimeout(() => {
-    throw new Error('El servidor va a caer');
-  }, 0);
-});
-
 // ---------- Rutas públicas ----------
 app.post('/signin', validateLogin, login);
 app.post('/signup', validateCreateUser, createUser);

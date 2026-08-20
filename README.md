@@ -172,12 +172,8 @@ pm2 save
 pm2 startup      # para que sobreviva a un reinicio de la máquina
 ```
 
-PM2 reinicia el proceso automáticamente si el servidor se cae. Se puede
-comprobar con `GET /crash-test`: el proceso muere y PM2 lo levanta de nuevo,
-así que el resto de rutas siguen respondiendo sin tocar nada.
-
-> **Nota:** la ruta `/crash-test` existe solo para la revisión del proyecto y
-> hay que eliminarla de `backend/app.js` una vez aprobada.
+PM2 reinicia el proceso automáticamente si el servidor se cae, y `pm2 startup`
+hace que la API vuelva a levantarse incluso después de reiniciar la máquina.
 
 ### 5. Certificados
 
