@@ -49,7 +49,7 @@ export default function EditProfile() {
             errors.name ? "popup__input_type_error" : ""
           }`}
           id="profile-name-input"
-          maxLength="40"
+          maxLength="30"
           minLength="2"
           name="name"
           placeholder="Nombre"
@@ -73,7 +73,7 @@ export default function EditProfile() {
             errors.description ? "popup__input_type_error" : ""
           }`}
           id="profile-description-input"
-          maxLength="200"
+          maxLength="30"
           minLength="2"
           name="description"
           placeholder="Acerca de mi"
